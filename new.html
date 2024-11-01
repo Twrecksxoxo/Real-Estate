@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- link for daisy ui + tailwind css -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="new.css">
+
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+
+
+
+
+
+
+    .navbar{
+        background: rgba(0,0,0,0.2);
+    }
+    .navigation{
+        background-image: url("slider_9.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60rem;   
+    }
+
+.secondpage{
+  font-size: 5rem;
+  background-color: #000000;
+  color:#ffd503 ;
+  border-color: #ffd503;
+  border-width: 0.2rem;
+  justify-content: center;
+  text-align: center;
+  transition: all 1s ease-out;
+  
+}
+.secondpage:hover{
+  background-color:white;
+}
+.unique{
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 22rem;
+  margin-top: 1.5rem;
+  
+  width: 50rem;
+  gap: 2rem;
+}
+.third{
+background-image:  url("Navana_Wedgewood_8_57706294af.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+/* opacity: 30%; */
+
+height: 60rem; 
+}
+
+.buttons {
+ 
+  flex: 1;
+  background-color: #333;
+  color: #ffd503;
+  border: 1px solid;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 1s ease-out;
+}
+
+.buttons:hover,
+ .buttons:focus {
+  background-color: #fff;
+  color: #ffd503;
+}
+.c1{
+  transition: all 1s ease-out;
+}
+.c1:hover{
+  box-shadow: 10px 10px 18px gold;
+}
+.c2{
+  transition: all 1s ease-out;
+}
+.c2:hover{
+  box-shadow: 10px 10px 18px silver;
+}
+.c3{
+  transition: all 1s ease-out;
+}
+.c3:hover{
+  box-shadow: 10px 10px 18px  rgb(0, 128, 128);
+}
+.fourth{
+  font-family: 'Tangerine', serif;
+  font-size: 14rem;
+  transition: all 1s ease-out;
+  color: #000000;
+  text-shadow: 2px 2px 2px #ffdd01;
+  margin-left: 25rem;
+}
+.fourth:hover{
+  text-shadow: 5px 5px 5px #ffdd01;
+}
+ 
+
+</style>
+</head>
+<body>
+
+    <div class="navigation">
+            <div class="navbar ">
+                <div class="flex-1">
+
+                 
+                  
+                  <a class="btn btn-ghost decoration-double" > <h1 class="text-4xl border-black text" style="text-decoration:underline; text-decoration-color: red;color: rgb(255, 255, 255);">Navana Groups</h1></a>
+                </div>
+                <div>
+                    <input  type="search" placeholder="Search" style="background:rgba(0,0,0,0.3);width: 25rem; border-radius: 0.375rem; padding-left: 1rem; height: 2rem; margin-right: 20rem;" >
+                </div>
+
+
+
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <img
+                          alt="Tailwind CSS Navbar component"
+                          src="gold-building-cityscape-logo-vector-14913669.jpg" />
+                      </div>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li>
+                        <a class="justify-between">
+                          Profile
+                          <span class="badge">New</span>
+                        </a>
+                      </li>
+                      <li><a>Settings</a></li>
+                      <li><a>Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <img src="Where-your-dream-home-awaits-11-1-2024 (2).png" alt="" style="margin-left: 15rem;margin-top: 8rem;">
+                
+                <nav class="unique">
+                  <a href="#" class="buttons">Home</a>
+                  <a href="#" class="buttons">About</a>
+                  <a href="#" class="buttons">Contact Us</a>
+                  <a href="#" class="buttons">Links</a>
+                </nav>
+                
+
+
+
+              </div>
+           
+    </div>
+
+
+    <!-- carousel item -->
+
+    <h1 class="secondpage" style="font-family: 'Tangerine', serif;">Best Projects</h1>
+
+    <div class="carousel w-full " style="height: 45rem;">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img
+          src="THE_STRAND_BY_NAVANA_11_35ada860e9.jpg"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img
+          src="hq720 (4) - Copy.jpg"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img
+          src="slider_5.webp"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide4" class="carousel-item relative w-full">
+        <img
+          src="THE_STRAND_BY_NAVANA_2_f81a6e8731.jpg"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+
+
+<!-- 3rd page -->
+
+<!-- card 1 -->
+
+
+<div class="third" >
+  <h1 class="fourth">Categories</h1>
+  <div style="display: flex;justify-content: center;gap: 3rem;">
+  <div class="card bg-gradient-to-r from-yellow-700 to-yellow-50 w-96 shadow-xl opacity-100 c1" style="height: 30rem;">
+    <figure>
+      <img
+        src="hq720.jpg"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title" style="color: #000000;">
+        Presidential
+        <div class="badge badge-secondary" style="background-color: gold;border-color: gold;">Gold</div>
+      </h2>
+      <p style="color: #000000;">Offering expansive living areas, multiple bedrooms, and high-end amenities. Guests enjoy features like private balconies, dining areas, and exclusive services such as personal butlers.</p>
+      <div class="card-actions justify-end">
+        <div class="badge badge-outline " style="background-color: gold;border-color: gold;color: #000000;">Gulshan</div>
+        <div class="badge badge-outline" style="background-color: gold;border-color: gold;color: #000000;">Uttara</div>
+      </div>
+    </div>
+  </div>
+
+<!-- card 2 -->
+
+  <div class="card bg-gradient-to-r from-slate-700 to-slate-50 w-96 shadow-xl opacity-100 c2" style="height: 30rem;">
+    <figure>
+      <img
+        src="hq720 (1).jpg"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title" style="color: #000000;">
+        Premium
+        <div class="badge badge-secondary" style="background-color: silver;border-color: silver;">Silver</div>
+      </h2>
+      <p style="color: #000000;">A blend of luxury and comfort, featuring spacious living areas, upscale furnishings, and modern amenities. Often equipped with separate bedrooms and dining spaces, these suites provide a serene environment for relaxation.</p>
+      <div class="card-actions justify-end">
+        <div class="badge badge-outline" style="background-color: silver;border-color: silver;color: #000000;">Fashion</div>
+        <div class="badge badge-outline" style="background-color: silver;border-color: silver;color: #000000;">Products</div>
+      </div>
+    </div>
+  </div>
+
+<!--card 3  -->
+
+
+
+
+  <div class="card bg-gradient-to-r from-teal-700 to-teal-50 w-96 shadow-xl opacity-100 c3" style="height: 30rem;">
+    <figure>
+      <img
+        src="hq720 (2).jpg"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title" style="color: #000000;">
+        Heritage
+        <div class="badge badge-secondary" style="background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128);">Emerald</div>
+      </h2>
+      <p style="color: #000000;">Featuring elegant decor, unique furnishings, and rich cultural details, these suites offer a glimpse into the past while providing contemporary comforts. Ideal for guests seeking an authentic and immersive experience in a storied setting.</p>
+      <div class="card-actions justify-end">
+        <div class="badge badge-outline" style="background-color: rgb(0, 128, 128);border-color: rgb(0, 128, 128);color: #000000;">Fashion</div>
+        <div class="badge badge-outline" style="background-color: rgb(0, 128, 128);border-color: rgb(0, 128, 128);color: #000000;">Products</div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</div>
+</body>
+</html>
